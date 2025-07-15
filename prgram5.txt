@@ -1,0 +1,31 @@
+install jdk 21
+install apache maven(binary zip file)
+bin copy path
+
+go to edit environment
+select in system select path
+
+go to cmd
+run as environmrnt
+
+java --version
+
+go to downolads
+select maven extract all
+windows c prgm file
+
+go to cmd run administration
+setx MAVEN_(copy path)
+setx PATH "%PATH%;C:...."
+
+mvn archetype:generate-DgroupId=com.example -DartifactId=demo-project -DarchetypeArtifactId=maven-archetype-quickstart -DinterarctiveMode=false
+(go to windows->system32->pom (copy)
+
+in notepad 
+change dependency after dependency
+
+(see in notepad)
+<dependency>
+	<groupId>com.google.code.gson</groupId>
+
+
